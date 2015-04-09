@@ -4,7 +4,7 @@ title: sia karamalegos
 description: > # this means to ignore newlines until "baseurl:"
   my misadventures while learning to code.  entertain yourself and maybe
   learn something that will help you out on your learning adventure.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://siakaramalegos.github.io/" # the base hostname & protocol for your site
 twitter_username: thegreengreek
 github_username:  siakaramalegos
