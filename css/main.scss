@@ -82,6 +82,7 @@ p {
 
       .navbar-right li a {
         color: #A9CF54;
+        background-color: #646464;
       }
 
       .navbar-right li a:visited {
@@ -148,7 +149,53 @@ a:hover.post-link {
     }
 }
 
+@media only screen and (max-width: 1200px) {
 
+  .navbar-right li {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .text-super {
+    font-size: 32px;
+  }
+
+  .text-sub {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .text-super {
+    font-size: 26px;
+  }
+
+  .text-sub {
+    font-size: 26px;
+  }
+
+  .navbar-right li {
+    font-size: 18px;
+  }
+
+  .logo img {
+    width: auto;
+    height: auto;
+  }
+
+}
+
+@media only screen and (max-width: 520px) {
+  .text-sub {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .text-super {
+    font-size: 20px;
+  }
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
