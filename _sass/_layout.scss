@@ -131,6 +131,7 @@
 }
 
 .footer-col-3 {
+    text-align: right;
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
@@ -165,9 +166,9 @@
     padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
-}
+// .page-heading {
+//     font-size: 20px;
+// }
 
 .post-list {
     margin-left: 0;

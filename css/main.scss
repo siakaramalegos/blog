@@ -17,7 +17,8 @@ $text-color:       #A9CF54;
 $background-color: #939292;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+// Changed to a yellow color
+$grey-color:       #F7E967;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -109,6 +110,29 @@ p {
   color: #CAFCD8;
   text-transform: lowercase;
   font-weight: 500;
+}
+
+a.post-link {
+  color: white;
+}
+
+a:visited.post-link {
+  color: white;
+}
+
+a:hover.post-link {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.site-footer {
+  a, a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: #ccc;
+  }
 }
 
 // Using media queries with like this:
