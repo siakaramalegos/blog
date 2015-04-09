@@ -27,7 +27,89 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+body {
+  color: #A9CF54;
+  font-weight: 300;
+  background-color: #939292;
+  padding-top: 90px;
+}
 
+p {
+  color: white;
+}
+
+.navbar {
+  border-radius: 0;
+  border-bottom: 5px solid #FF00FF;
+  background-color: #646464;
+  height: 75px;
+  line-height: 75px;
+  padding-top: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+  .navbar-brand {
+    color: #04BFBF;
+    font-size: 36px;
+    text-transform: lowercase;
+  }
+
+  .logo {
+    padding: 0;
+    height: 50px;
+    float: left;
+    position: relative;
+    bottom: 15px;
+  }
+
+.navbar-header a .text-super {
+  color: #04BFBF;
+}
+
+.navbar-header a:hover .text-super {
+  color: #FFF;
+}
+
+  .navbar-right {
+    margin-right: 0;
+  }
+
+    .navbar-right li {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+      .navbar-right li a {
+        color: #A9CF54;
+      }
+
+      .navbar-right li a:visited {
+        color: #A9CF54;
+      }
+
+      .navbar-default .navbar-nav>li>a {
+        color: #A9CF54;
+      }
+
+      .nav.navbar-nav.navbar-right li a:hover {
+        color: #FF00FF;
+        background-color: #646464;
+      }
+
+.text-super {
+  color: #04BFBF;
+  font-weight: 700;
+  text-transform: lowercase;
+  padding-left: 20px;
+  padding-right: 15px;
+
+}
+
+.text-sub {
+  color: #CAFCD8;
+  text-transform: lowercase;
+  font-weight: 500;
+}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
