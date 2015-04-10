@@ -3,6 +3,7 @@ layout: post
 title:  "more fun with jekyll"
 date:   2015-04-10 21:45:30
 categories: jekyll
+comments: true
 ---
 Today I learned three fun things about Jekyll.
 
