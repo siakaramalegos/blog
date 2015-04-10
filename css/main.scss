@@ -141,6 +141,26 @@ a:hover.post-link {
   }
 }
 
+ol, ul {
+  color: white;
+}
+
+ul.post-list li span.post-meta {
+  margin-right: 10px;
+}
+
+.post-list-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a.comment-count {
+  color: #CAFCD8;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
