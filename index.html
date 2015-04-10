@@ -14,7 +14,7 @@ layout: default
         <h2 class="post-list-item">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <a class="comment-count" href="{{ post.url }}#disqus_thread"></a>
+        <a class="comment-count" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
 
       </li>
     {% endfor %}
