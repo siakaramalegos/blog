@@ -3,6 +3,7 @@ layout: post
 title:  "when in doubt update the PATH"
 date:   2015-04-09 20:43:30
 categories: environment
+comments: true
 ---
 As any newbie coder will quickly find out, one of the most painful parts of coding isn't coding at all.  It's setting up your environment on your machine.
 
