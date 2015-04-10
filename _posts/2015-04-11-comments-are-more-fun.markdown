@@ -20,4 +20,4 @@ Next, add `comments: true` to the front matter of your posts to allow for commen
 Finally, add `{% raw %}{% include comments.html %}{% endraw %}` to the post layout file in the location that you want the comments to show.
 
 BONUS!!  Add the comment count Universal Embed Code to the bottom of your index.html file.  Then, inside your li for each post, add some code like this:
-`<a class="comment-count" href="{{ post.url }}#disqus_thread"></a>`.
+`<a class="comment-count" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>`.
