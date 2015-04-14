@@ -2,7 +2,7 @@
 layout: post
 title:  "my first blog post as a web developer"
 date:   2015-04-08 19:43:30
-categories:
+categories: milestones
 comments: true
 ---
 It's about time I started my coding blog.  After some inspiration from my weekly "study hall" meetup, I'm finally making it happen.

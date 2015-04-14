@@ -18,7 +18,7 @@ $background-color: #939292;
 $brand-color:      #2a7ae2;
 
 // Changed to a yellow color
-$grey-color:       #F7E967;
+$grey-color:       #444444;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -145,7 +145,7 @@ ol, ul {
   color: white;
 }
 
-ul.post-list li span.post-meta {
+ul.post-list li span.post-meta, span.tags {
   margin-right: 10px;
 }
 
@@ -159,6 +159,10 @@ a.comment-count {
   font-weight: 300;
   font-size: 14px;
   text-transform: lowercase;
+}
+
+.tags {
+  color: #F7E967;
 }
 
 // Using media queries with like this:

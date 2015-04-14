@@ -14,7 +14,12 @@ layout: default
         <h2 class="post-list-item">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="tags">
+          <i class="fa fa-tags"></i>
+          {{ post.categories | join: ', ' }}
+        </span>
         <a class="comment-count" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
+        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 
       </li>
     {% endfor %}
