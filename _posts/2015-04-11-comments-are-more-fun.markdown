@@ -2,7 +2,7 @@
 layout: post
 title:  "comments are more fun"
 date:   2015-04-11 14:21:30
-categories: jekyll, disqus
+categories: jekyll disqus
 comments: true
 ---
 Hooray for adding comments to my blog!
