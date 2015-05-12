@@ -165,6 +165,19 @@ a.comment-count {
   color: #F7E967;
 }
 
+.table {
+  color: white;
+}
+
+thead {
+  background-color: #646464;
+  color: #A9CF54;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #aaa;
+}
+
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
