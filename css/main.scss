@@ -118,6 +118,8 @@ p {
   font-weight: 500;
 }
 
+
+
 a.post-link {
   color: white;
 }
@@ -147,6 +149,10 @@ ol, ul {
 
 ul.post-list li span.post-meta, span.tags {
   margin-right: 10px;
+}
+
+span.post-meta, p.post-meta {
+  color: #aaa;
 }
 
 .post-list-item {
